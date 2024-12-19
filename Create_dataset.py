@@ -45,14 +45,18 @@ from Extracting_Landmarks import mediapipe_detection , drawing_landmarks , drawi
 
 # In[5]:
 
-
 # File Path to store the landmark data
 
 DATA_PATH = os.path.join("LANDMARK_DATA")
 
 # Defining the actions 
 
-actions = np.array(['hello' , 'thankyou' , 'iloveyou' , 'sorry' ,'A' , 'B' , 'C' , 'D' , 'E' , 'F'])
+# File Path to store the landmark data
+
+DATA_PATH = os.path.join("LANDMARK_DATA")
+
+# Defining the actions 
+actions = np.array(['hello' , 'thankyou' , 'My' , 'sorry', 'Name' , 'You' , 'I am' , 'Nice' ,'Meet' , 'Fine', 'I'])
 # Defining the number of videos per action
 
 no_of_videos = 100
