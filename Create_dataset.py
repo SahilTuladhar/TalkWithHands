@@ -53,10 +53,12 @@ DATA_PATH = os.path.join("LANDMARK_DATA")
 
 # File Path to store the landmark data
 
+# File Path to store the landmark data
+
 DATA_PATH = os.path.join("LANDMARK_DATA")
 
 # Defining the actions 
-actions = np.array(['hello' , 'thankyou' , 'My' , 'sorry', 'Name' , 'You' , 'I am' , 'Nice' ,'Meet' , 'Fine', 'I'])
+actions = np.array(['hello' , 'thankyou' , 'My' , 'sorry', 'Name' , 'You' , 'I am' , 'Nice' ,'Meet' , 'S' , 'A' , 'M'])
 # Defining the number of videos per action
 
 no_of_videos = 100
@@ -64,6 +66,4 @@ no_of_videos = 100
 # Defining the number of frames per video
 
 no_of_frames = 30
-
-
 
