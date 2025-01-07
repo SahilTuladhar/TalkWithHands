@@ -21,7 +21,7 @@ TalkwithHands is a robust sign language detection system designed to interpret g
 #### 2. Data Preprocessing
 
 - Converted frames to RGB and normalized landmarks.
-- Stored processed data in MongoDB for efficient management.
+- Stored processed data in MongoDB for efficient managements.
 
 #### 3. Model Development
 
